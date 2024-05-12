@@ -6,9 +6,9 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/qi_api
+    url: jdbc:mysql://localhost:3306/zhang_api
     username: root
-    password: 1234
+    password: 123456
   mvc:
     path match:
       matching-strategy: ANT_PATH_MATCHER
@@ -19,14 +19,15 @@ spring:
   # redis 配置
   redis:
     port: 6379
-    host: localhost
+    host: 192.168.42.132
     database: 0
-#  邮箱配置
+    password: 230410
+  #  邮箱配置
   mail:
     host: smtp.qq.com
-    username: 2483482026@qq.com
+    username: 1722922160@qq.com
     password: xxxxxxxxxxxxxxxx
-    emailFrom: 2483482026@qq.com
+    emailFrom: 1722922160@qq.com
     properties:
       mail:
         smtp:

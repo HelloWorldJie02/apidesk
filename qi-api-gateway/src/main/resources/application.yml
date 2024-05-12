@@ -10,8 +10,9 @@ spring:
             - Path=/api/**
   redis:
     port: 6379
-    host: localhost
+    host: 192.168.42.132
     database: 0
+    password: 230410
 logging:
   level:
     org:
